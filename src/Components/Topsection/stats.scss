@@ -1,0 +1,32 @@
+@import "../../scss/vars";
+.stat {
+  &-container {
+}
+& {
+    padding: 1em;
+    border-radius: 1em !important;
+    // border: 3px solid darken($primary,30) !important;
+    box-shadow: 1px 1px 5px $primary ;
+    transform: translateY(-40%);
+  }
+  &-icon,
+  &-count {
+    font-size: 2.4em;
+  }
+
+  &-count {
+    font-family: poppins-bold;
+  }
+  &-count,
+  &-text {
+    margin-top: -10px;
+  }
+}
+
+@media (max-width: 900px) {
+  .stat {
+    & {
+      padding: 0em;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.intro{
+    &-heading{
+        font-family: "poppins-bold";
+    }
+    &-text{
+        font-family: 'poppins-light';
+        margin: 2em 0em;
+    }
+    .search-box{
+        background-color: rgba(white,.5);
+        border: none;
+        outline: none;
+        color: white;
+        font-family: poppins;
+        border-top-left-radius: .5em;
+        border-bottom-left-radius: .5em;
+        width: 80%;
+        padding: .6em;
+        &::placeholder{
+            color: white;
+        }
+    }
+    .btn:hover{
+        color: white !important;
+    }
+}
