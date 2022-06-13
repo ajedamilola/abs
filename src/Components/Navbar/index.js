@@ -8,10 +8,10 @@ export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark">
       <div className="container">
-        <div className="navbar-brand">
+        <a className="navbar-brand">
           <img src={logo} className="logo" alt="ABS Logo"/>
           Ajegunle Business School
-        </div>
+        </a>
         <button
           className="navbar-toggler"
           data-bs-toggle="collapse"

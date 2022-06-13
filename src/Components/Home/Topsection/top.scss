@@ -1,0 +1,20 @@
+#topSection {
+  min-height: 110vh !important;
+  overflow:hidden;
+  position: relative;
+  .carousel{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    &-indicators{
+      transform: translateY(-50px);
+    }
+  }
+
+  @media (max-width:800px) {
+    .carousel-indicators{
+      transform: translateY(-30px) !important;
+    }
+  }
+}

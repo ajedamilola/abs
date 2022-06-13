@@ -1,0 +1,63 @@
+@import "../../../scss/vars";
+
+.stat {
+  & {
+    padding: 1em;
+    transform: translateY(-100%);
+    z-index:9999;
+  }
+  
+  &-icon,
+  &-count {
+    font-size: 2.4em;
+  }
+
+  &-count {
+    font-family: poppins-bold;
+  }
+  &-count,
+  &-text {
+    margin-top: -10px;
+  }
+  &-container{
+    margin-bottom: -5%;
+  }
+}
+
+@media (max-width: 900px) {
+  .stat {
+    & {
+      padding: 0em;
+    }
+  }
+}
+
+@media (min-width:1025px) {
+  .middle{
+    border-radius: 0px !important;
+    border-top: 1px solid #ddd !important;
+    border-bottom: 1px solid #ddd !important;
+    border-left: none !important;
+    border-right: none !important;
+  }
+  .start{
+    border-top-left-radius: 1em !important;
+    border-top-right-radius: 0em !important;
+    border-bottom-left-radius: 1em !important;
+    border-bottom-right-radius: 0px !important;
+    border-top: 1px solid #ddd!important;
+    border-bottom: 1px solid #ddd !important;
+    border-left: 1px solid #ddd !important;
+    border-right: none !important;
+  }
+  .end{
+    border-top-left-radius: 0em !important;
+    border-top-right-radius: 1em !important;
+    border-bottom-left-radius: 0em !important;
+    border-bottom-right-radius: 1em !important;
+    border-top: 1px solid #ddd !important;
+    border-bottom: 1px solid #ddd !important;
+    border-right: 1px solid #ddd !important;
+    border-left: none !important;
+  }
+}

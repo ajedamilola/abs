@@ -1,0 +1,45 @@
+@import "../../../scss/vars";
+
+.section2 {
+  background-color: lighten($primary,30);
+  min-height: 100vh;
+  padding: 10% 0em;
+  position: relative;
+  overflow: hidden;
+  h1 {
+    font-family: poppins-bold;
+    color:darken($primary,30);
+  }
+  .card {
+    border-left: 5px solid lighten($primary, 20);
+    border-top-right-radius: 1em !important;
+    border-bottom-right-radius: 1em !important;
+    position: relative;
+    background-color: darken($primary, 30) !important;
+    .icon {
+      display: block;
+      color: $primary;
+      font-size: 5rem;
+    }
+    &-text {
+      font-family: poppins-light;
+    }
+    h2,
+    .icon,
+    &-text {
+      color: white !important;
+    }
+    
+  }
+
+  .corner-logo{
+    position: absolute;
+    width: 30%;
+    height: auto;
+    right: -5%;
+    bottom:-10%;
+    mix-blend-mode: darken;
+    transform: rotateZ(40deg);
+    opacity: .5;
+   }
+}

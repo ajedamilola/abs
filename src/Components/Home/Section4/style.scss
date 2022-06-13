@@ -1,0 +1,48 @@
+@import "../../../scss/vars";
+.section4{
+    background-color: lighten($primary,30);
+    h1{
+        font-family: poppins-bold;
+        color:white;
+        padding-left: .5em;
+    }
+
+    .event{
+        &{
+            background-color: white;
+            border-radius: 1em;
+            &:hover{
+                box-shadow: 0px 0px 25px #ccc;
+            }
+
+            &,&:hover{
+                transition-duration: .5s;
+            }
+        }
+        .title{
+            margin-bottom:-5px !important;
+            font-size: 1.5em;
+            color:$primary;
+        }
+        *{
+            font-family: poppins;
+        }
+        .card{
+            position: relative;
+            min-height: fit-content !important;
+            &-body{
+                margin-top: -5%;
+            }
+            &-body,&-header{
+                padding: 1em !important;
+            }
+            &-img-top{
+                border-top-left-radius: 1em;
+                border-top-right-radius: 1em;
+            }
+            &-text{
+                font-family: poppins-light !important;
+            }
+        }
+    }
+}
