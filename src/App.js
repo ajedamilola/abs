@@ -6,7 +6,7 @@ import "bootstrap/dist/js/bootstrap.bundle";
 export default function App() {
   return (
     <>
-      <Router>
+      <Router basename="/abs">
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
