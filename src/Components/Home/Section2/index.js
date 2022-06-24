@@ -1,66 +1,24 @@
 import React from "react";
 import "./style.scss";
-import { MdPeople,MdContactSupport,MdOnlinePrediction } from "react-icons/md";
+import { MdPeople, MdContactSupport, MdOnlinePrediction } from "react-icons/md";
 export default function Section2() {
   return (
     <div className="section2">
-      <div className="container">
-        <h1 className="text-center">Another Header</h1>
-        <div className="py-5">
-          <div className="row gy-3">
 
-            <div className="col-12 col-md-6 col-lg-4">
-              <div className="card shadow">
-                
-                <div className="card-body">
-                  <MdPeople className="icon" />
-                  <h2>
-                    Heading
-                  </h2>
-                  <p className="card-text">
-                    Pariatur ea quis officia eu adipisicing in ea mollit labore
-                    laborum aute aliquip.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-12 col-md-6 col-lg-4">
-              <div className="card shadow">
-                
-                <div className="card-body">
-                  <MdContactSupport className="icon" />
-                  <h2>
-                    Heading
-                  </h2>
-                  <p className="card-text">
-                    Pariatur ea quis officia eu adipisicing in ea mollit labore
-                    laborum aute aliquip.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-12 col-md-6 col-lg-4">
-              <div className="card shadow">
-                
-                <div className="card-body">
-                  <MdOnlinePrediction className="icon" />
-                  <h2>
-                    Heading
-                  </h2>
-                  <p className="card-text">
-                    Pariatur ea quis officia eu adipisicing in ea mollit labore
-                    laborum aute aliquip.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
+      <div className="bg-img-overlay">
+        <img src={require("../../../Images/bg.jpg")} className="img-fluid bg-img" />
       </div>
-      <img src={require("../../../logo.png")} className="corner-logo" />
+      {/* Main Content */}
+      <div className="text-center container">
+
+        <img src={require("../../../Images/office2.jpg")} className="display-image" />
+        <h1>
+          Demo Header Here
+        </h1>
+        <p>
+          Velit laborum enim non ex ea mollit minim deserunt laboris sunt. Aliqua eiusmod sit nisi cillum enim duis culpa non. Consectetur labore esse irure consequat nostrud dolor culpa aliquip tempor ad. Aliquip veniam et amet ipsum exercitation. Dolore irure do aute aliqua quis aliqua.Sit mollit veniam consequat quis consectetur velit excepteur aute mollit ut esse officia pariatur consequat. Ipsum deserunt magna proident exercitation nulla est ullamco. Commodo laboris deserunt fugiat laborum. Duis qui qui cillum exercitation fugiat est cupidatat aliquip laborum eu.
+        </p>
+      </div>
     </div>
   );
 }

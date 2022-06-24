@@ -4,13 +4,12 @@ import "./style.scss";
 
 export default function Section3() {
   return (
-    <section class="section3 py-6 bg-light">
+    <section class="section3 bg-light">
       <div className="container">
         <div className="text-center">
           <h1 className="text-center text-primary">Testimonials</h1>
           <p className="text-muted">
-            Consequat veniam duis nostrud eu mollit ea officia dolore dolore
-            consequat.
+            Here What Some Of Our Notable Clients has to Say About us.
             <br />
             <Line width={"20%"} className="mx-auto my-3"/>
           </p>

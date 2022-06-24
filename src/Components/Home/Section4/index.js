@@ -5,56 +5,27 @@ import { FaMapMarkerAlt, FaInfo, FaClock } from "react-icons/fa";
 
 export default function Section4() {
   return (
-    <section className="section4 py-7">
-      <div className="container">
-        <h1 className="bg-primary  text-center text-md-start">
-          What We Are Up to
-          <Line width="30%" className="bg-primary" />
-        </h1>
-        <div className="row py-4 gy-4">
-          <Event
-            name="Event Name"
-            content="Id tempor aliqua sint magna laborum officia dolore cillum culpa esse adipisicing sit. Ut id commodo incididunt officia occaecat tempor pariatur "
-            imgSrc = {require("../../../Images/office2.jpg")}
-          />
+    <section className="section4">
+      <div className="wrapper">
+        <div className="row text-center">
+          <div className="col-12 col-md-7 bg text-light content">
+            <h1>
+              Demo Header
+            </h1>
+            <p className="pt-5 pb-3">
+              Nostrud irure pariatur velit qui ut Lorem eiusmod est consectetur exercitation non do mollit. Cupidatat consectetur eiusmod sit quis eiusmod est labore nostrud deserunt. Mollit esse qui sint laboris velit nostrud aute id veniam cupidatat exercitation laborum. Nisi esse proident consectetur elit consectetur. Magna labore laboris occaecat adipisicing.
 
-          <Event
-            name="Event Name"
-            content="Id tempor aliqua sint magna laborum officia dolore cillum culpa esse adipisicing sit. Ut id commodo incididunt officia occaecat tempor pariatur "
-            imgSrc = {require("../../../Images/office1.jpg")}
-          />
-
-          <Event
-            name="Event Name"
-            content="Id tempor aliqua sint magna laborum officia dolore cillum culpa esse adipisicing sit. Ut id commodo incididunt officia occaecat tempor pariatur "
-            imgSrc = {require("../../../Images/bgpeople.jpg")}
-          />
+              Cillum eu excepteur dolor proident aliquip laborum id aute ullamco. Ex voluptate id occaecat adipisicing cillum commodo do laboris. Consequat est est aliquip et eu do occaecat. Cupidatat id eu culpa fugiat deserunt laborum nisi ad et exercitation consequat fugiat irure aliqua. Ut cupidatat minim et cillum do duis commodo ea. Sit elit cupidatat esse Lorem mollit sit.
+            </p>
+            <button className="btn btn-primary text-light">
+              See More
+            </button>
+          </div>
+          <div className="col-12 col-md-5 p-0">
+            <img src={require("../../../Images/office2.jpg")} className="w-100" />
+          </div>
         </div>
       </div>
     </section>
   );
 }
-
-const Event = ({ name = "", content = "", imgSrc }) => (
-  <div className="col-12 col-md-6 col-lg-4">
-    <div className="event" style={{}}>
-      <img
-        className="card-img-top"
-        src={imgSrc}
-      />
-      <div className="main">
-        <div className="card-header">
-          <h3 className="title">{name}</h3>
-          <hr />
-        </div>
-        <div className="card-body">
-          <p className="card-text text-muted">
-            <FaInfo className="text-muted" />
-            {content}
-          </p>
-          <button className="btn btn-outline-primary">See More</button>
-        </div>
-      </div>
-    </div>
-  </div>
-);

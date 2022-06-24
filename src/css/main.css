@@ -12638,7 +12638,7 @@ hr {
 }
 
 body {
-  overflow-x: hidden;
+  overflow: overlay;
 }
 body::-webkit-scrollbar {
   width: 10px;
@@ -12658,6 +12658,14 @@ body::-webkit-scrollbar-thumb {
 @font-face {
   font-family: "poppins-light";
   src: url("../Fonts/Poppins-Light.ttf");
+}
+@font-face {
+  font-family: "open-sans";
+  src: url("../Fonts/OPENSANS-LIGHT.TTF");
+}
+@font-face {
+  font-family: "open-sans";
+  src: url("../Fonts/OPENSANS-SEMIBOLD.TTF");
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -40,3 +40,12 @@
     background-color: rgba(0, 0, 0, 0.631);
   }
 }
+
+@media (max-width: 320px) {
+  .intro {
+    &-heading {
+      margin-top: 30%;
+      font-size: 1.3em;
+    }
+  }
+}

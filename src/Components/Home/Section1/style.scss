@@ -1,45 +1,16 @@
 @import "../../../scss/vars";
 .section1 {
-  h1 {
-    font-family: poppins-bold;
-    font-size: 3rem;
-    &::after {
-      width: 3em;
-      height: 3px !important;
-      content: " .";
-      display: block;
-      box-sizing: content-box;
-      background-color: darken($primary, 30);
-      margin: auto;
-      color: white;
-    }
+  margin-top: -10%;
+  overflow-x: hidden;
+  h2, h3{
+      font-family: poppins-bold;
+      font-size: 2rem;
+      color: #333;
   }
-  h2 {
-    font-family: poppins;
-    width: auto;
-    &.text-start {
-      border-left: 4px solid $primary;
-      padding-left: 1em;
-    }
-    &.text-end {
-      border-right: 4px solid $primary;
-      padding-right: 1em;
-    }
-  }
-  p {
-    font-family: poppins-light;
-    color: rgb(75, 75, 75);
-  }
-  hr{
-    width: 60%;
-    margin: auto;
-  }
-  .row {
-    img {
-      opacity: 0.8;
-    }
-    p{
-      font-size: .9rem;
-    }
+  p{
+      font-family: poppins-light;
+      font-weight: 200;
+      color: #555;
+      font-size: .92em;
   }
 }

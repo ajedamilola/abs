@@ -5,7 +5,7 @@ hr {
   box-shadow: none !important;
 }
 body {
-  overflow-x: hidden;
+  overflow: overlay;
   &::-webkit-scrollbar {
     width: 10px;
   }
