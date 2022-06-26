@@ -1,0 +1,29 @@
+footer {
+    position: relative;
+  .logo {
+    width: 100px;
+  }
+  .title {
+    font-family: poppins;
+    font-size: 1.5em;
+    &-sm {
+      font-family: poppins;
+      font-size: 1em;
+    }
+  }
+  .text {
+    font-family: poppins-light;
+    color: #ddd;
+    font-size: 0.9em;
+  }
+  ul{
+      list-style: none;
+      padding-left: 0px !important;
+  }
+  .last{
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      padding: .4em;
+  }
+}

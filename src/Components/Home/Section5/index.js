@@ -11,7 +11,7 @@ export default function Section5() {
                     <p className='intro'>
                         Minim enim aliqua ut id excepteur. Ipsum cupidatat qui officia consequat eiusmod amet
                     </p>
-                    <div className='row justify-content-center py-6'>
+                    <div className='row justify-content-center py-6 gx-0 gx-md-6'>
                         <Item icon={<BsAward className='icon' />} title="Aute pariatur occa" text="Deserunt consectetur velit ad adipisicing velit non." />
                         <Item icon={<BsScissors className='icon' />} title="Ea nulla reprehenderit" text="Adipisicing ullamco aliqua sunt id aute cillum sunt reprehenderit consequat adipisicing duis Lorem." />
                         <Item icon={<BsDiamond className='icon' />} title="Ipsum quis consequat" text="Et id sit Lorem enim excepteur in veniam eiusmod sit labore proident consectetur exercitation ea." />

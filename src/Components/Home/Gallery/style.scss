@@ -1,0 +1,27 @@
+@import "../../../scss/vars";
+@keyframes fade {
+    from{
+        opacity: 1;
+        display: block;
+    }
+    to{
+        opacity: 0;
+        display: none !important;
+    }
+}
+.gallery{
+    background-color: darken($primary,20);
+    transform: translateY(10px);
+    h1{
+        font-family: poppins-bold;
+    }
+    .btn{
+        &:hover,&:focus,&.selected{
+            background-color: #aaa !important;
+            transition-duration: .4s;
+        }
+    }
+    .fade{
+        animation: fade .5s ease-in-out;
+    }
+}

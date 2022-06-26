@@ -1,0 +1,13 @@
+@import "../../../scss/vars";
+.newsletter{
+    background-color: lighten($primary, 10);
+    h1{
+        margin-bottom: -5px;
+    }
+    img{
+        border-radius: 1em;
+    }
+    input{
+        width: 90%;
+    }
+}

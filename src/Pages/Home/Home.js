@@ -10,6 +10,10 @@ import Section2 from "../../Components/Home/Section2";
 import Section3 from "../../Components/Home/Section3";
 import Section4 from "../../Components/Home/Section4";
 import Section5 from "../../Components/Home/Section5";
+import Section6 from "../../Components/Home/Section6";
+import NewsLetter from "../../Components/Home/NewsLetter";
+import Gallery from "../../Components/Home/Gallery";
+import Footer from "../../Components/Footer";
 
 export default function Home() {
   return (
@@ -22,8 +26,12 @@ export default function Home() {
       <Section1 />
       <Section2 />
       <Section3 />
+      <Gallery />
       <Section4 />
       <Section5 />
+      <Section6 />
+      <NewsLetter />
+      <Footer />
     </>
   );
 }

@@ -8,7 +8,7 @@ export default function Section4() {
     <section className="section4">
       <div className="wrapper">
         <div className="row text-center">
-          <div className="col-12 col-md-7 bg text-light content">
+          <div className="col-12 col-lg-7 bg text-light content">
             <h1>
               Demo Header
             </h1>
@@ -21,7 +21,7 @@ export default function Section4() {
               See More
             </button>
           </div>
-          <div className="col-12 col-md-5 p-0">
+          <div className="col-12 col-lg-5 p-0">
             <img src={require("../../../Images/office2.jpg")} className="w-100" />
           </div>
         </div>

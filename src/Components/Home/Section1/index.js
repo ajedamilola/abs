@@ -33,8 +33,8 @@ export default function Section1() {
 
 
         {/* Info Text */}
-        <div className="row py-7 align-items-center gy-4 gx-7 order-sm-1 order-md-0">
-          <div className="col-12 col-md-7">
+        <div className="row py-7 align-items-center gy-4 gx-7 ">
+          <div className="col-12 col-md-7 order-1 order-md-0">
             <h3>
               Fugiat esse commodo Lorem dolore
             </h3>
@@ -42,7 +42,7 @@ export default function Section1() {
               Aliqua irure est nisi pariatur deserunt ad tempor quis voluptate. Ad ex pariatur in tempor anim. Velit minim anim labore reprehenderit aute veniam cupidatat esse et eiusmod. Excepteur ad veniam eiusmod reprehenderit fugiat. Dolor sint nostrud ut voluptate ipsum elit dolor veniam eiusmod ex voluptate incididunt. Ut et eiusmod mollit anim pariatur laborum excepteur.
             </p>
           </div>
-          <div className="col-12 col-md-5 order-sm-0 order-md-1">
+          <div className="col-12 col-md-5 order-0 order-md-1">
             <img src={require("../../../Images/office1.jpg")} className="img-fluid" />
           </div>
         </div>
