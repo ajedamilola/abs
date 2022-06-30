@@ -1,0 +1,22 @@
+.about-intro {
+  padding: 14% 0;
+  span {
+    font-size: 1.2em;
+    color: #ddd;
+    font-family: poppins-light;
+  }
+  h1 {
+    font-size: 3.5em;
+    color: #fff;
+    width: min(700px, 70%);
+    font-family: poppins-bold;
+    margin-top: -5px;
+  }
+
+  @media (max-width: 900px) {
+    padding: 28vh 0 !important;
+    h1 {
+      font-size: 2.5em !important;
+    }
+  }
+}

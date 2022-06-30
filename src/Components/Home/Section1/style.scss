@@ -2,15 +2,27 @@
 .section1 {
   margin-top: -10%;
   overflow-x: hidden;
-  h2, h3{
-      font-family: poppins-bold;
-      font-size: 2rem;
-      color: #333;
+  h2,
+  h3 {
+    font-family: poppins-bold;
   }
-  p{
-      font-family: poppins-light;
-      font-weight: 200;
-      color: #555;
-      font-size: .92em;
+  h3 {
+    //this is used in the grid
+    font-size: 3rem;
+    background: linear-gradient(to left,$primary,darken($primary,30));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  h2 {
+    //this was used in the 'Trusted By'
+    color: #333;
+    font-size: 2rem;
+  }
+  p {
+    font-family: poppins-light;
+    font-weight: 200;
+    color: #555;
+    font-size: 0.92em;
   }
 }

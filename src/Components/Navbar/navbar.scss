@@ -1,5 +1,9 @@
 @import "../../scss/vars";
+.nav-bg{
+  background-color: rgba(17, 17, 17, 0.822) !important;
+}
 .navbar {
+  
   z-index: 99999;
     * {
       font-family: poppins;
@@ -16,7 +20,7 @@
       font-size: calc(.8em + .5vw) !important;
     }
     .logo{
-      max-height: 70px;
+      max-height: 66px;
     }
     &-collapse.show,&-collapse.collapsing{
       background-color: #111;

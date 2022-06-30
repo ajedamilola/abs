@@ -1,0 +1,31 @@
+.story {
+  h1 {
+    font-family: poppins-bold;
+  }
+  .main-text {
+    font-family: open-sans-light;
+    color: #222;
+    font-size: 0.95em;
+  }
+  .main-objectives {
+    padding: 7% 0%;
+    margin-top: 10%;
+    h1 {
+      margin-bottom: -5px;
+    }
+    span {
+      font-family: poppins-light;
+      font-size: 0.9em;
+    }
+  }
+  .obj {
+    &-title {
+      font-family: poppins;
+      margin-bottom: -5px;
+    }
+    &-icon{
+        width: 60px;
+        height: 60px;
+    }
+  }
+}
