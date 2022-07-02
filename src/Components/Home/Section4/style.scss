@@ -1,7 +1,7 @@
 @import "../../../scss/vars";
 .section4{
     .bg{
-        background-color: darken($primary,20);
+        background-color: darken($primary,30);
     }
     .wrapper{
         max-width: 100vw !important;
@@ -14,13 +14,14 @@
     .content{
         padding: 5% 3%;
         h1{
-            font-family: poppins-bold;
+            font-family: jakatra-bold;
         }
         p{
-            font-family: poppins-light;
+            font-family: jakatra;
             width: 90%;
             margin: auto;
             font-size: .94em;
+            font-weight: 200;
             // padding-bottom: 1em;
             // color: rgb(224, 224, 224);
         }

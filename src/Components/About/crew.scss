@@ -1,16 +1,28 @@
 .crew {
   padding: 7% 0%;
   h1 {
-    font-family: poppins-bold;
+    font-family: jakatra-bold;
     text-transform: uppercase;
   }
   img{
       border-radius: 30px;
   }
   p{
-      font-family: poppins-light;
+      font-family: jakatra-light;
   }
   .profile {
+    text-align: center;
+    &-container{
+    overflow: hidden !important;
+    width:300px;
+    height: 300px !important;
+    border-radius: 100%;
+    background-color: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    }
     h2 {
       font-size: 1.6em;
       margin-bottom: -6px;
@@ -18,7 +30,11 @@
       font-family: poppins;
     }
     span {
-      font-family: poppins-light;
+      font-family: jakatra-light;
+    }
+    img{
+      width:100%;
+      height: auto;
     }
   }
 }

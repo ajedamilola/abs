@@ -2,27 +2,29 @@
 .section1 {
   margin-top: -10%;
   overflow-x: hidden;
-  h2,
-  h3 {
-    font-family: poppins-bold;
-  }
   h3 {
     //this is used in the grid
-    font-size: 3rem;
-    background: linear-gradient(to left,$primary,darken($primary,30));
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    font-size: 3.3rem;
+    // background: linear-gradient(to left,$primary,darken($primary,30));
+    // background-clip: text;
+    // -webkit-background-clip: text;
+    // -webkit-text-fill-color: transparent;
+    // font-weight: 900;
+    font-family: jakatra-bold;
+    color: darken($primary,35);
+    text-align: center;
   }
   h2 {
     //this was used in the 'Trusted By'
     color: #333;
     font-size: 2rem;
+    font-family: jakatra;
   }
   p {
-    font-family: poppins-light;
+    font-family: jakatra-light;
     font-weight: 200;
-    color: #555;
+    color: #333;
     font-size: 0.92em;
+    text-align: justify;
   }
 }

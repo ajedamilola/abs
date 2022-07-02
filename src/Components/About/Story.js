@@ -1,15 +1,18 @@
 import React from 'react'
 import "./story.scss"
 import { BsBookHalf } from "react-icons/bs"
+import Line from "../Utilities/Line"
 
 export default function Story() {
     return (
         <div className='story'>
             <div className='container'>
                 <BsBookHalf size={55} />
+                <Line className='bg-primary mt-3' thickness={3} />
                 <h1>
                     Our Story
                 </h1>
+                <Line className='bg-primary ms-4 mb-3' thickness={3} />
                 <p className='main-text'>
                     Laboris veniam reprehenderit id adipisicing sunt ipsum. Aute amet veniam magna ullamco mollit cupidatat nostrud elit incididunt aute. Ea pariatur mollit aute voluptate qui commodo. Non elit Lorem dolor aliqua sunt et laboris. Occaecat velit commodo ipsum veniam ullamco laborum quis consectetur aute aliqua officia. Pariatur elit et nisi non cillum proident amet mollit deserunt ex enim sint cillum cupidatat.
                 </p>
@@ -23,12 +26,12 @@ export default function Story() {
                         Our Main Objectives
                     </h1>
                     <span>
-                        Nulla voluptate aute cillum ut tempor quis adipisicing Lorem 
+                        Nulla voluptate aute cillum ut tempor quis adipisicing Lorem
                     </span>
                     <div className='row py-6 justify-content-center'>
-                        <Objective icon={<BsBookHalf className='obj-icon'/>} title="Title" subtitle="Subtitle of objecrtive" />
-                        <Objective icon={<BsBookHalf className='obj-icon'/>} title="Title" subtitle="Subtitle of objecrtive" />
-                        <Objective icon={<BsBookHalf className='obj-icon'/>} title="Title" subtitle="Subtitle of objecrtive" />
+                        <Objective icon={<BsBookHalf className='obj-icon' />} title="Title" subtitle="Subtitle of objecrtive" />
+                        <Objective icon={<BsBookHalf className='obj-icon' />} title="Title" subtitle="Subtitle of objecrtive" />
+                        <Objective icon={<BsBookHalf className='obj-icon' />} title="Title" subtitle="Subtitle of objecrtive" />
                     </div>
                 </div>
 
@@ -37,7 +40,7 @@ export default function Story() {
     )
 }
 
-const Objective = ({icon,title,subtitle}) => (
+const Objective = ({ icon, title, subtitle }) => (
     <div className='text-center col-6 col-md-4'>
         {icon}
         <h2 className='obj-title'>{title}</h2>
