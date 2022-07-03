@@ -21,14 +21,14 @@ export default function Gallery() {
           </div>
 
           <div className='row align-items-center g-3'>
-            <Image src={require("../../../Images/office1.jpg")} id="Filter 1" />
-            <Image src={require("../../../Images/office2.jpg")} id="Filter 2" />
-            <Image src={require("../../../Images/office1.jpg")} id="Filter 1" />
-            <Image src={require("../../../Images/office2.jpg")} id="Filter 2" />
-            <Image src={require("../../../Images/bg.jpg")} id="Filter 3" />
-            <Image src={require("../../../Images/office2.jpg")} id="Filter 2" />
-            <Image src={require("../../../Images/office1.jpg")} id="Filter 3" />
-            <Image src={require("../../../Images/office1.jpg")} id="Filter 2" />
+          <Image src={require("../../../Images/Portfolio/01.jpg")} id="Filter 1" />
+            <Image src={require("../../../Images/Portfolio/02.jpg")} id="Filter 2" />
+            <Image src={require("../../../Images/Portfolio/03.jpg")} id="Filter 1" />
+            <Image src={require("../../../Images/Portfolio/04.jpg")} id="Filter 2" />
+            <Image src={require("../../../Images/Portfolio/05.jpg")} id="Filter 3" />
+            <Image src={require("../../../Images/Portfolio/06.jpg")} id="Filter 2" />
+            <Image src={require("../../../Images/Blog/1.jpg")} id="Filter 3" />
+            <Image src={require("../../../Images/Blog/2.jpg")} id="Filter 2" />
           </div>
         </filterRef.Provider>
       </div>

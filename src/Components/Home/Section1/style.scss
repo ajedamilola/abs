@@ -1,30 +1,33 @@
 @import "../../../scss/vars";
 .section1 {
   margin-top: -10%;
-  overflow-x: hidden;
+  overflow: hidden;
   h3 {
     //this is used in the grid
     font-size: 3.3rem;
-    // background: linear-gradient(to left,$primary,darken($primary,30));
-    // background-clip: text;
-    // -webkit-background-clip: text;
-    // -webkit-text-fill-color: transparent;
-    // font-weight: 900;
+    background: linear-gradient(120deg,darken($primary,10) 50%,darken($primary,30) 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
     font-family: jakatra-bold;
-    color: darken($primary,35);
-    text-align: center;
+    color: #777;
+    // text-align: center;
   }
   h2 {
     //this was used in the 'Trusted By'
-    color: #333;
+    color: $primary;
     font-size: 2rem;
-    font-family: jakatra;
+    font-family: jakatra-bold;
   }
   p {
     font-family: jakatra-light;
     font-weight: 200;
     color: #333;
     font-size: 0.92em;
-    text-align: justify;
+    // text-align: justify;
+  }
+  svg{
+    fill: $primary
   }
 }

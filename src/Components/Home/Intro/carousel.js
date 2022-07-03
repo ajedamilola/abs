@@ -25,14 +25,14 @@ export default function carousel() {
             heading="Enim ex non ullamco quis ea aute ad adipisicing veniam adipisicing aute."
             text="Minim nulla sint magna ea minim irure. Ad elit mollit incididunt reprehenderit excepteur eiusmod magna eu cupidatat eiusmod sit. Sint id proident laboris Lorem elit aliquip"
             searchVisible={true}
-            imgSrc={require("../../../Images/bg.jpg")}
+            imgSrc={require("../../../Images/Slider/03.jpg")}
           />
         </div>
         <div className="carousel-item">
           <Intro
             heading="Magna id id laborum in sunt cupidatat velit."
             text="Ullamco cillum irure et nostrud excepteur ea qui. Lorem adipisicing sint adipisicing cillum esse veniam. Est anim eiusmod Lorem ea velit do nulla cillum deserunt. Ipsum officia anim enim cupidatat adipisicing mollit elit elit veniam. Minim duis exercitation amet elit dolor nisi deserunt incididunt nisi reprehenderit ad sit."
-            imgSrc={require("../../../Images/bg.webp")}
+            imgSrc={require("../../../Images/Slider/01.jpg")}
           />
         </div>
       </div>

@@ -14,6 +14,7 @@ import Section6 from "../../Components/Home/Section6";
 import NewsLetter from "../../Components/Home/NewsLetter";
 import Gallery from "../../Components/Home/Gallery";
 import Footer from "../../Components/Footer";
+import { Fade } from "../../Components/Utilities/Animations";
 
 export default function Home() {
   return (
@@ -24,9 +25,16 @@ export default function Home() {
       </TopSection>
       <Stats />
       <Section1 />
-      <Section2 />
-      <Section3 />
-      <Gallery />
+      <Fade>
+
+        <Section2 />
+      </Fade>
+      <Fade>
+        <Section3 />
+      </Fade>
+      <Fade>
+        <Gallery />
+      </Fade>
       <Section4 />
       <Section5 />
       <Section6 />

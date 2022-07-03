@@ -6,12 +6,10 @@ export default function Section2() {
     <div className="section2">
 
       <div className="bg-img-overlay">
-        <img src={require("../../../Images/bg.jpg")} className="img-fluid bg-img" />
+        <img src={require("../../../Images/Blog/2.jpg")} className="img-fluid bg-img" />
       </div>
       {/* Main Content */}
       <div className="text-center container">
-
-        <img src={require("../../../Images/office2.jpg")} className="display-image" />
         <h1>
           Demo Header Here
         </h1>

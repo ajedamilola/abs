@@ -1,7 +1,7 @@
 @import "../../../scss/vars";
 
 .section2 {
-  min-height: 300px;
+  min-height: 200px;
   margin-top: 5%;
   .bg-img {
     & {
@@ -10,7 +10,7 @@
       width: 100vw;
     }
     &-overlay {
-      background-color: darken($primary, 45);
+      background-color: #000;
       width: 100%;
       min-height: fit-content;
       display: inline;
@@ -23,13 +23,13 @@
 
   .display-image {
     text-align: center;
-    width: 200px;
+    // width: 200px;
     height: 200px;
     border-radius: 2em;
     box-shadow: 1px 4px 6px rgb(61, 61, 61);
   }
   .container {
-    padding: 5% 0em;
+    padding-top:10%;
   }
   h1,
   p {

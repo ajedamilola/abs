@@ -12645,6 +12645,7 @@ body::-webkit-scrollbar {
 }
 body::-webkit-scrollbar-thumb {
   background-color: rgb(245, 65, 41);
+  border-radius: 0.5em;
 }
 
 @font-face {

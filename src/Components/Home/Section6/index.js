@@ -1,13 +1,18 @@
 import React from 'react'
 import "./style.scss"
 import Line from "../../Utilities/Line";
+import { FadeLeft, SlideRight } from '../../Utilities/Animations';
 
 export default function index() {
   return (
     <section className="section6 py-7 container">
-      <Line className='bg-primary' thickness={3}/>       
+      <FadeLeft>
+        <Line className='bg-primary' thickness={3} />
+      </FadeLeft>
       <h1 className='text-primary'>What We Are Up to</h1>
-      <Line className='bg-primary ms-5' thickness={3} width={200} />
+      <SlideRight>
+        <Line className='bg-primary ms-5' thickness={3} width={200} />
+      </SlideRight>
 
       <div className="row g-5 py-5">
         <Event image={require("../../../Images/bg.jpg")} />
@@ -23,7 +28,7 @@ const cardbg = (image) => {
     backgroundImage: `url(${image})`,
     backgroundSize: "cover", backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
-    
+
   }
 }
 
